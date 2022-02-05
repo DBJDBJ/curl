@@ -8,23 +8,17 @@ In any case I remember this code being a good starting point with libcurl.
 
 ## Some unavoidable prose first
 
-First of all [libcurl is old](https://curl.se/docs/history.html). in 2015 it was 17 years old.
+First of all [libcurl is old](https://curl.se/docs/history.html). in 2015 it was 17 years old. It is written in C and that is a good thing, I would do he same in 2022. But the whole project ethos is unmistakably "different"
 
-It is written in C and that is a good thing, I would do he same in 2022. But the whole project ethos is unmistakably "different"
-
-Further to that, for some reason https://github.com/curl/ has no `curl` and `libcurl` in two clearly divided projects aka "repos". I remember looking around in disbelief trying to found just a `libcurl`. Just a libcurl source code without curl, cmake, docs, circleci, plan9, zuul etc. 
+Further to that, for some reason https://github.com/curl/ has no `curl` and `libcurl` in two clearly divided projects aka "repos". I remember looking around in disbelief trying to find just a `libcurl`. Just a `libcurl` source code without curl, cmake, docs, circleci, plan9, zuul, etc. 
 
 Truth to be told there is [pretty extensive web site](https://curl.se/), downloads page, downloads wizard (no windows), and all the other XX century paraphernalia. But, no `libcurl` github repo.
 
-Finally I downloaded binaries from [one site](https://skanthak.homepage.t-online.de/curl.html) and header from the official repo. And that worketh.
+Finally I downloaded binaries from [one site](https://skanthak.homepage.t-online.de/curl.html) and headers from the official repo. And that worketh. After a few years of usage, that is now refreshed with the latest and made available in this repo.
 
-After a few years of usage, that is now refreshed with the latest curl and made available in this repo.
+In any case Curl is by now a part of Windows 10. Before copy pasting code from here, definitely have a long play with curl on your command line,using many (many) [examples one can google out](https://rapidapi.com/blog/best-stock-api/). I tend to use [YH Finance](https://rapidapi.com/apidojo/api/yh-finance). No affiliation.
 
-In any case Curl is by now a part of Windows 10. Before copy pasting code in here, definitely have a long play with it, from a cmd.exe,using many (many) [examples one can google out](https://rapidapi.com/blog/best-stock-api/).
-
-I tend to use [YH Finance](https://rapidapi.com/apidojo/api/yh-finance). No affiliation.
-
-In the mean time next is the libcurl "step 0":
+Lastly next part is the libcurl "step 0".
 
 <h1>CURL Most Basic Use-cases</h1>
 

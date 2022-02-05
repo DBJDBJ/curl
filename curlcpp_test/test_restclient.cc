@@ -1,6 +1,6 @@
 #include "../curlcpp/dbj_common.h"
 
-// until not including dbj json solution, will not test against json
+// until not including dbj json solution, we will not test against json
 #undef DBJ_CURL_JSON_TESTS
 
 #ifdef DBJ_CURL_JSON_TESTS

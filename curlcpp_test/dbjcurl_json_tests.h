@@ -1,5 +1,9 @@
 #pragma once
 
+/*
+use: https://rapidapi.com/apidojo/api/yh-finance
+with your account login data
+*/
 
 
 UTEST(RestClientTest, TestRestClientDELETEBody) {
