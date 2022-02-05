@@ -22,6 +22,8 @@ After a few years of usage, that is now refreshed with the latest curl and made 
 
 In any case Curl is by now a part of Windows 10. Before copy pasting code in here, definitely have a long play with it, from a cmd.exe,using many (many) [examples one can google out](https://rapidapi.com/blog/best-stock-api/).
 
+I tend to use [YH Finance](https://rapidapi.com/apidojo/api/yh-finance). No affiliation.
+
 In the mean time next is the libcurl "step 0":
 
 <h1>CURL Most Basic Use-cases</h1>
